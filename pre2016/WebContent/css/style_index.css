@@ -1,0 +1,168 @@
+@charset "UTF-8" ;
+
+html{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
+}
+
+
+<!--index.html-->
+#body{
+	width: 100%;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	background: url(../img/logo.png);
+}
+
+#logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+/*index.html用ここから*/
+
+#main_index{
+	width: 100%;
+}
+
+#join_hd{
+	border-bottom: solid 1px #000;
+}
+
+#main_img{
+	width: 60%;
+	height: 600px;
+	float: left;
+}
+
+#signup{
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+#signup h2{
+	line-height: 1.7em;
+	font-size: 1.2em;
+}
+
+#signup_btn{
+	position: absolute;
+	top: 37%;
+	left: 30%;
+	width: 160px;
+	text-align:center;
+}
+
+#signup_btn a{
+	background: #AAA;
+	text-decoration: none;
+	line-height: 40px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#login_r{
+	width: 40%;
+	height: 60%;
+	height: 600px;
+	float:left;
+}
+
+
+#login_r:after{
+	clear: both;
+}
+
+#signup{
+	top: 0%;
+	height: 30%;
+	background: #EEE;
+}
+
+#login{
+	top: 30%;
+	height: 70%;
+	text-align:center;
+}
+
+#login h2{
+	line-height: 1.7em;
+	font-size: 1.2em;
+}
+
+.login_f{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 20em;
+	height: 1.3em;
+	background: #EEE;	
+}
+
+/*index.html用ここまで*/
+
+/*signup.html用ここから*/
+
+#main{
+	margin-top: 5px;
+}
+
+#main h2{
+	font-size: 1.2em;
+}
+
+#form{
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+	
+}
+
+.err{
+	color: #F00;
+}
+
+/*signup.html用ここまで*/
+
+#footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+}
+
+#footer ul{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer li{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footer_l{
+	text-align:center;
+}
+
+#footer_l p{
+	font-size: 0.8em;
+}

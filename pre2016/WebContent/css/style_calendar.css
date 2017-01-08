@@ -1,0 +1,198 @@
+@charset "UTF-8" ;
+
+html{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
+}
+
+
+#body{
+	width: 100%;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/*clear*/
+.clear{
+	clear: both;
+}
+
+/*header*/
+
+#header{
+	width: 100%;
+	height: 100px;
+}
+
+#logo{
+	float: left;
+	width: 200px;
+	height: 100px;
+	background: url(../img/logo.png);
+}
+
+#logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+#navi_header{
+	float: right;
+	width: 200px;
+	height:100px;
+}
+
+#navi_header p{
+	margin: 5px;
+}
+
+#navi_header a{
+	margin: 5px;
+}
+
+/*navi*/
+
+#navi{
+	
+}
+
+#navi ul{
+	display: table;
+	border-collapse: collapse;
+	margin: auto auto;
+}
+
+#navi ul li{
+	display: table-cell;
+	text-align: center;
+	width: 190px;
+	background: #DDD;
+	float: left;
+	border-left: solid 1px #FFF;
+}
+
+#navi ul li:last-child{
+	border-left: solid 1px #FFF;
+	border-right: solid 1px #FFF;
+}
+
+#navi ul li:hover{
+	background: #EFEFEF;
+}
+
+#navi ul li a{
+	line-height: 2.5em;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #000;
+}
+
+/*main*/
+#main{
+	margin-top: 5px;
+	width: 100%;
+}
+
+/*calendar*/
+table{
+	border:1px solid #a9a9a9;width:960px;;padding:0px;margin:0px;border-collapse:collapse;
+}
+
+#calender{
+	display:table; border-collaplse:collapse;
+}
+
+td{
+	width:12%;border-top:1px solid #a9a9a9;border-left:1px solid #a9a9a9;vertical-align:top;margin:0px;padding:2px;
+}
+
+.daycell{
+	float:left; display:table-cell;width:132px;border-top:1px solid #a9a9a9;border-left:1px solid #a9a9a9;vertical-align:top;margin:0px;padding:2px;
+}
+
+.daycell7{
+	float:left; display:table-cell;width:132px;border-top:1px solid #a9a9a9;border-left:1px solid #a9a9a9;border-right:1px solid #a9a9a9;vertical-align:top;margin:0px;padding:2px;
+}
+
+.daycellb{
+	float:left; display:table-cell;width:132px;border-top:1px solid #a9a9a9;border-left:1px solid #a9a9a9;border-bottom:1px solid #a9a9a9;vertical-align:top;margin:0px;padding:2px;
+}
+
+.daycelllast{
+	float:left; display:table-cell;width:132px;border:1px solid #a9a9a9;vertical-align:top;margin:0px;padding:2px;
+}
+
+td.week{
+	background-color:#f0f8ff;text-align:center;
+}
+
+.day{
+	background-color:#f5f5f5;text-align:right;font-size:0.75em;
+}
+
+.daycrr{
+	background-color:#ddffff;text-align:right;font-size:0.75em;
+}
+
+.crr{
+	background-color:#fffffff;text-align:left;height:140px;
+}
+
+.noncrr{
+	background-color:#eeeeee;text-align:left;height:140px;
+}
+
+img{
+	border:0px;
+}
+
+p{
+	font-size:0.9em;
+}
+
+.date{
+	display: inline;
+}
+
+.datesun{
+	display: inline; color: #F00;
+}
+
+.datesat{
+	display: inline; color: #00F;
+}
+
+/*footer*/
+
+#footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+}
+
+#footer ul{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer li{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footer_l{
+	text-align:center;
+}
+
+#footer_l p{
+	font-size: 0.8em;
+}
